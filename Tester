@@ -1,0 +1,12 @@
+import torch
+import torch.nn as nn
+import torch.nn.functional as F
+
+import torch_geometric.nn as pyg_nn
+import torch_geometric.utils as pyg_utils
+
+if __name__ == '__main__':
+    att = nn.Parameter(torch.Tensor(1, 2, 3))
+
+    print(torch.Tensor(3, 4))
+
